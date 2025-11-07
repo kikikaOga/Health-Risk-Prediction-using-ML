@@ -1,4 +1,4 @@
-⛑️ Health Risk Prediction using Machine Learning
+## ⛑️ Health Risk Prediction using Machine Learning
 
 This project focuses on predicting potential health risks using machine learning models trained on health-related datasets.  
 The goal is to explore how data-driven insights can be leveraged to improve early detection and preventive healthcare.
@@ -68,13 +68,10 @@ This project was created as part of my personal portfolio to demonstrate my skil
 
 Clone this repository and install the dependencies:
 
-```bash
+```
 pip install -r requirements.txt
-Then run the notebook:
+```
 
-bash
-คัดลอกโค้ด
-jupyter notebook PJ_ML.ipynb
-🏫 Notes
+## 🏫 Notes
 This project aligns with research directions in AI for Health and Data Science,
 and is an example of how interdisciplinary technology can contribute to better health outcomes.
