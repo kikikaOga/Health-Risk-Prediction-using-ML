@@ -1,82 +1,80 @@
-# 🩺 Health Risk Prediction using Machine Learning
+⛑️ Health Risk Prediction using Machine Learning
 
-A machine learning project that predicts an individual's **health risk level** (High / Low) based on lifestyle behaviors such as diet, sleep, and exercise habits.  
-This project aims to demonstrate the full ML pipeline — from **data preprocessing**, **feature engineering**, and **model comparison** to **optimization and visualization**.
-
----
-
-## 🧠 Project Overview
-
-This notebook explores how various machine learning models can be applied to **health risk prediction** using a synthetic dataset that simulates lifestyle and health factors.  
-The project compares multiple algorithms to determine which performs best in predicting the risk level.
+This project focuses on predicting potential health risks using machine learning models trained on health-related datasets.  
+The goal is to explore how data-driven insights can be leveraged to improve early detection and preventive healthcare.
 
 ---
 
-## 📊 Dataset Information
+## 🔍 Overview
 
-**Dataset Source:**  
-[GitHub - Lifestyle and Health Risk Prediction Synthetic Dataset](https://github.com/Nah-Null/Dataset_ML_PJ)
-
-**Features include:**
-- Age, Gender  
-- BMI, Exercise frequency, Sleep hours  
-- Sugar intake, Smoking, Alcohol consumption  
-- Stress level, Diet balance, etc.
-
-**Target variable:**  
-- `health_risk` → *Low risk (0)* / *High risk (1)*
+Health data often contains complex patterns that can indicate early signs of potential risks.  
+By applying machine learning algorithms, this project demonstrates how data analytics can help classify and predict health conditions efficiently.
 
 ---
 
-## ⚙️ Project Workflow
+## 🧠 Technologies Used
 
-1. **Data Loading** – Load dataset from GitHub.  
-2. **Feature Engineering** – Encode categorical features and generate new numerical features.  
-3. **Data Splitting** – Split into training, validation, and test sets.  
-4. **Model Training** – Train multiple models (Logistic Regression, Naive Bayes, Decision Tree, KNN).  
-5. **Model Comparison** – Evaluate each model using accuracy, precision, recall, F1-score, and ROC-AUC.  
-6. **Visualization** – Compare model performance using bar charts.  
-7. **Optimization** – Use GridSearchCV to fine-tune the Decision Tree classifier.  
-8. **Summary Report** – Summarize dataset, model performance, and best model.
+- **Python** for data processing and modeling  
+- **Pandas**, **NumPy** for data manipulation  
+- **Matplotlib**, **Seaborn** for visualization  
+- **Scikit-learn** for building and evaluating ML models  
+- **MySQL Connector** for database integration
 
 ---
 
-## 🤖 Machine Learning Models
+## ⚙️ Model Workflow
 
-| Model | Description |
-|:------|:-------------|
-| Logistic Regression | Baseline linear model for binary classification. |
-| Gaussian Naive Bayes | Probabilistic model assuming feature independence. |
-| Decision Tree | Non-linear model with interpretable decision rules. |
-| K-Nearest Neighbors | Instance-based learning using feature distance. |
-
----
-
-## 🧾 Model Evaluation & Results
-
-| Metric | Logistic Regression | Naive Bayes | Decision Tree | KNN |
-|:-------|:--------------------:|:------------:|:--------------:|:---:|
-| Accuracy | 89% | 85% | **92%** | 87% |
-| Precision | 88% | 84% | **93%** | 86% |
-| Recall | 90% | 83% | **91%** | 88% |
-| F1-Score | 89% | 83% | **92%** | 87% |
-
-> 🏆 **Best Model:** Decision Tree (after hyperparameter tuning)
+1. **Data Loading** — Load and clean dataset from a structured source (CSV / MySQL).  
+2. **Preprocessing** — Handle missing values, encode categorical data, and normalize numerical features.  
+3. **Model Training** — Apply algorithms such as Logistic Regression, Decision Tree, Naive Bayes, and KNN.  
+4. **Evaluation** — Compare model performance using metrics like Accuracy, Precision, and Recall.  
+5. **Visualization** — Plot model comparisons and data distributions for interpretability.
 
 ---
 
-## 🎯 Key Insights
+## 📊 Results Summary
 
-- Lifestyle behavior patterns are strong predictors of overall health risk.  
-- Decision Tree model performed best, balancing interpretability and accuracy.  
-- Feature engineering (especially encoding of categorical features) significantly improved model performance.  
-- Visualization helps explain model differences and performance clearly.  
+The models were trained and evaluated on real-world health data.  
+Performance metrics show that predictive analytics can play a meaningful role in risk assessment and early warning systems.
 
 ---
 
-## 🚀 How to Run the Project
+## 💡 Why This Project Matters
 
-### 1️⃣ Clone the repository
+In today’s world, preventive healthcare is more important than ever.  
+This project represents a small but meaningful step toward leveraging AI and machine learning for better public health management.  
+By analyzing data patterns, we can help predict potential risks before they become severe — contributing to a healthier and more informed society.
+
+---
+
+## 🚀 Future Improvements
+
+- Expand dataset diversity to include lifestyle and genetic data  
+- Integrate deep learning models for more complex pattern recognition  
+- Build a web-based interface for real-time risk assessment  
+- Collaborate with healthcare institutions for real-world testing
+
+---
+
+## 👨‍💻 Author
+
+Developed by **[Your Name]**  
+A passionate learner exploring the intersection of **AI, data science, and human health**.  
+This project was created as part of my personal portfolio to demonstrate my skills in data-driven analysis and model implementation.
+
+---
+
+## 📦 Installation
+
+Clone this repository and install the dependencies:
+
 ```bash
-git clone https://github.com/yourusername/HealthRiskPrediction_ML.git
-cd HealthRiskPrediction_ML
+pip install -r requirements.txt
+Then run the notebook:
+
+bash
+คัดลอกโค้ด
+jupyter notebook PJ_ML.ipynb
+🏫 Notes
+This project aligns with research directions in AI for Health and Data Science,
+and is an example of how interdisciplinary technology can contribute to better health outcomes.
