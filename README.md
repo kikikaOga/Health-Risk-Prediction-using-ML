@@ -5,6 +5,14 @@ The goal is to explore how data-driven insights can be leveraged to improve earl
 
 ---
 
+## 🌐 Live Demo
+
+🎯 **Try it here:** [Health Risk Prediction App](https://healthrisk-prediction.streamlit.app/)  
+> You can explore the interactive web app built with Streamlit to test the model in real-time!
+> Or you can view the demo code at:[WebApp_HRP](https://github.com/kikikaOga/WebApp_HRP)
+
+---
+
 ## 🔍 Overview
 
 Health data often contains complex patterns that can indicate early signs of potential risks.  
@@ -18,7 +26,8 @@ By applying machine learning algorithms, this project demonstrates how data anal
 - **Pandas**, **NumPy** for data manipulation  
 - **Matplotlib**, **Seaborn** for visualization  
 - **Scikit-learn** for building and evaluating ML models  
-- **MySQL Connector** for database integration
+- **MySQL Connector** for database integration  
+- **Streamlit** for interactive web deployment
 
 ---
 
@@ -28,7 +37,8 @@ By applying machine learning algorithms, this project demonstrates how data anal
 2. **Preprocessing** — Handle missing values, encode categorical data, and normalize numerical features.  
 3. **Model Training** — Apply algorithms such as Logistic Regression, Decision Tree, Naive Bayes, and KNN.  
 4. **Evaluation** — Compare model performance using metrics like Accuracy, Precision, and Recall.  
-5. **Visualization** — Plot model comparisons and data distributions for interpretability.
+5. **Visualization** — Plot model comparisons and data distributions for interpretability.  
+6. **Deployment** — Deploy trained model via Streamlit Cloud for real-time prediction.
 
 ---
 
@@ -58,7 +68,7 @@ By analyzing data patterns, we can help predict potential risks before they beco
 
 ## 👨‍💻 Author
 
-Developed by **[Your Name]**  
+Developed by **[Amonpuwit]**  
 A passionate learner exploring the intersection of **AI, data science, and human health**.  
 This project was created as part of my personal portfolio to demonstrate my skills in data-driven analysis and model implementation.
 
@@ -68,10 +78,6 @@ This project was created as part of my personal portfolio to demonstrate my skil
 
 Clone this repository and install the dependencies:
 
-```
+```bash
 pip install -r requirements.txt
 ```
-
-## 🏫 Notes
-This project aligns with research directions in AI for Health and Data Science,
-and is an example of how interdisciplinary technology can contribute to better health outcomes.
